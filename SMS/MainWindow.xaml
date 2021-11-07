@@ -1,0 +1,39 @@
+﻿<Window x:Class="SMS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SMS"
+        mc:Ignorable="d"
+          Title="Home" Height="800" Width="1245" Background="#E9E9E9">
+    <Grid>
+        <Rectangle Margin="477,39,479,433">
+            <Rectangle.Fill>
+                <ImageBrush 
+                     ImageSource="C:\Users\Tharani\Desktop\gui project\SMS\gui pictures\new logo.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Margin="454,359,454,321">
+            <Rectangle.Fill>
+                <ImageBrush 
+                     ImageSource="C:\Users\Tharani\Desktop\gui pictures\EduScope.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Label Width="250" Height="50" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="33" FontWeight="SemiBold"
+               FontFamily="Montserrat" Content="Select Course:" Margin="221,501,0,225">
+        </Label>
+        <ComboBox Width="400" Height="50" VerticalAlignment="Center" HorizontalAlignment="Right" FontFamily="Montserrat"
+                  FontStyle="Normal" FontSize="27" Margin="0,501,342,225" FontWeight="Regular">
+        </ComboBox>
+        <Button Width="70" Height="50" VerticalAlignment="Center" HorizontalAlignment="Right" FontFamily="Montserrat"
+                  FontSize="27" Margin="0,498,267,221" Background="#BDBCBC" Content="OK" FontWeight="Medium" Click="Button_Click_1">
+        </Button>
+        <Button Width="306" Height="59" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Montserrat"
+                  FontSize="27" Margin="477,620,454,90" Background="#BDBCBC" Content="Add New Course" FontWeight="Medium" Click="Button_Click">
+        </Button>
+
+
+    </Grid>
+</Window>

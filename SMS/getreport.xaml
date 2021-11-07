@@ -1,0 +1,33 @@
+﻿<Window x:Class="SMS.Window11"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SMS"
+        mc:Ignorable="d"
+       Title="Student List" Height="662" Width="1089" Background="#E9E9E9">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="385*"/>
+            <ColumnDefinition Width="697*"/>
+        </Grid.ColumnDefinitions>
+        <Label Height="48" FontFamily="montserrat" Margin="73,50,71.5,533" Content="Course Name" FontSize="25" FontWeight="SemiBold"/>
+        <Label Height="48" FontSize="25" FontWeight="SemiBold" FontFamily="montserrat" Margin="172.5,50,230,533" Content="Fee" Grid.Column="1"/>
+
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="73,142,71.5,441"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="73,200,71.5,383"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="73,260,71.5,323"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="73,320,71.5,263"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="73,380,71.5,203"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="73,440,71.5,143"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="73,500,71.5,83"/>
+
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="172.5,141,88,442" Grid.Column="1"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="172.5,200,88,383" Grid.Column="1"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="172.5,260,88,323" Grid.Column="1"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="172.5,320,88,263" Grid.Column="1"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="172.5,380,88,203" Grid.Column="1"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="172.5,440,88,143" Grid.Column="1"/>
+        <Label Height="48" FontSize="25" FontWeight="Regular" FontFamily="montserrat" Margin="172.5,500,88,83" Grid.Column="1"/>
+    </Grid>
+</Window>

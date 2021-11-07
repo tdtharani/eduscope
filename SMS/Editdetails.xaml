@@ -1,0 +1,55 @@
+﻿<Window x:Class="SMS.Window7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SMS"
+        mc:Ignorable="d"
+        Title="Edit Details" Height="800" Width="1089" Background="#E9E9E9">
+    <Grid Margin="0,0,0,3">
+        <Label Height="48" Width="342" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Content="Edit details of Student ID:" Margin="32,32,0,0"/>
+
+        <Label Height="48" Width="172" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Margin="379,32,0,0"/>
+
+        <Label Height="48" Width="172" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="Full Name" Margin="32,104,0,0"/>
+        <Label Height="48" Width="172" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="Address" Margin="32,164,0,0"/>
+        <Label Height="48" Width="172" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="Phone No." Margin="32,224,0,0"/>
+        <Label Height="48" Width="172" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="Date of Birth" Margin="32,284,0,0"/>
+        <Label Height="48" Width="196" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="Gender" Margin="532,224,0,0"/>
+        <Label Height="48" Width="196" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="E Mail Address" Margin="532,284,0,0"/>
+        <RadioButton  Margin="750,239,299,462"/>
+        <RadioButton  Margin="896,239,153,462"/>
+        <Label Height="48" Width="95" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="Male" Margin="782,224,0,0"/>
+        <Label Height="48" Width="113" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="Female" Margin="933,224,0,0"/>
+
+
+        <Label Height="48" Width="272" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Content="Guardian's Details" Margin="32,469,0,0" RenderTransformOrigin="0.507,0.792"/>
+        <Label Height="48" Width="172" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="Name" Margin="50,529,0,0"/>
+        <Label Height="48" Width="172" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="Phone No" Margin="50,589,0,0"/>
+        <Label Height="48" Width="196" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="25" FontWeight="Regular" Content="E Mail Address" Margin="532,589,0,0"/>
+        <Button Margin="414,668,429,32" Background="#BDBCBC" Content="Save Changes" FontFamily="montserrat" FontSize="27" FontWeight="Medium">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+
+            </Button.Resources>
+        </Button>
+        <TextBox Height="48" Margin="267,104,35,614" FontFamily="MONTSERRAT" FontSize="15" FontWeight="Regular"/>
+        <TextBox Height="48" Margin="267,164,35,554" FontFamily="MONTSERRAT" FontSize="15" FontWeight="Regular"/>
+        <TextBox Height="48" Margin="267,224,575,494" FontFamily="MONTSERRAT" FontSize="15" FontWeight="Regular"/>
+        <TextBox Height="48" Margin="750,284,35,434" FontFamily="MONTSERRAT" FontSize="15" FontWeight="Regular"/>
+        <TextBox Height="48" Margin="267,529,35,189" FontFamily="MONTSERRAT" FontSize="15" FontWeight="Regular"/>
+        <TextBox Height="48" Margin="267,589,575,129" FontFamily="MONTSERRAT" FontSize="15" FontWeight="Regular"/>
+        <TextBox Height="48" Margin="750,589,35,129" FontFamily="MONTSERRAT" FontSize="15" FontWeight="Regular"/>
+        
+        
+        
+        <Calendar Margin="267,284,609,301"/>
+
+
+
+
+
+    </Grid>
+</Window>

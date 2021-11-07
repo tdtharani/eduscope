@@ -1,0 +1,70 @@
+﻿<Window x:Class="SMS.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SMS"
+        mc:Ignorable="d"
+        Title="Course_main" Height="800" Width="1245" Background="#E9E9E9">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="371"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Background="#BCBCBC">
+            <Rectangle Grid.Column="0" Width="105.79" Height="107.02" Margin="132,30,133,604" >
+                <Rectangle.Fill>
+                    <ImageBrush 
+                     ImageSource="C:\Users\Tharani\Desktop\gui pictures\new logo.png" />
+                </Rectangle.Fill>
+            </Rectangle>
+            <StackPanel Height="800" Width="371" Orientation="Vertical">
+                <Button Height="78" Width="371" Margin="0,249,0,0" Background="#707070" FontFamily="montserrat" FontSize="33" FontWeight="Medium" Content="HOME" Click="Button_Click"/>
+                <Button Height="78" Width="371" Margin="0,0,0,0" Background="#BCBCBC" FontFamily="montserrat" FontSize="33" FontWeight="Medium" Content="STUDENTS" Click="Button_Click_1"/>
+                <Button Height="78" Width="371" Margin="0,0,0,0" Background="#BCBCBC" FontFamily="montserrat" FontSize="33" FontWeight="Medium" Content="PAYMENTS" Click="Button_Click_2"/>
+            </StackPanel>
+        </Grid>
+
+        <Rectangle Width="745" Grid.Column="1" Margin="58,91,63,389">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#C0FEFC" />
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Label Height="60" FontSize="28" FontFamily="Montserrat" FontWeight="Medium" Content="Course ID" Grid.Column="1" Margin="72,114,552,595" RenderTransformOrigin="0.549,-0.611"/>
+
+        <Label Height="60" FontSize="28" FontFamily="Montserrat" FontWeight="Medium" Content="Course Name" Grid.Column="1" Margin="72,197,552,512"/>
+
+        <Label Height="60" FontSize="28" FontFamily="Montserrat" FontWeight="Medium" Content="No of Students" Grid.Column="1" Margin="72,287,552,422"/>
+
+        <Label Grid.Column="1" Margin="336,114,80,595" Background="#C0FEFC" FontSize="28" FontFamily="Montserrat" FontWeight="Medium" BorderBrush="#C0FEFC"/>
+        <Label Grid.Column="1" Margin="336,197,80,512" Background="#C0FEFC" FontSize="28" FontFamily="Montserrat" FontWeight="Medium" BorderBrush="#C0FEFC"/>
+        <Label Grid.Column="1" Margin="336,287,80,422" Background="#C0FEFC" FontSize="28" FontFamily="Montserrat" FontWeight="Medium" BorderBrush="#C0FEFC"/>
+
+        <Button Grid.Column="1" Margin="174,423,514,146" Background="#E9E9E9" BorderBrush="#E9E9E9" Click="Button_Click_3">
+            <Image Source="C:\Users\Tharani\Desktop\gui pictures\edit.png" Height="159" RenderTransformOrigin="0.1,0.1" Width="141"/>
+        </Button>
+        <Button Grid.Column="1" Margin="520,423,166,146" Background="#E9E9E9" BorderBrush="#E9E9E9" Click="Button_Click_4">
+            <Image Source="C:\Users\Tharani\Desktop\gui pictures\report.png" Width="170" Height="150"/>
+        </Button>
+        <Label Grid.Column="1" Margin="174,658,493,43" FontFamily="Montserrat" FontSize="28" FontWeight="SemiBold" Content="Edit Course"/>
+        <Label Grid.Column="1" Margin="520,658,166,43" FontFamily="Montserrat" FontSize="28" FontWeight="SemiBold" Content="Get Report"/>
+
+        <Button Margin="10,10,286,661" Background="#BCBCBC" FontFamily="montserrat" FontSize="33" FontWeight="Medium" BorderBrush="#bcbcbc" Click="Button_Click_5">
+            <Image Source="C:\Users\Tharani\Desktop\gui pictures\back.png" Width="62" Height="61"/>
+        </Button>
+
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>
